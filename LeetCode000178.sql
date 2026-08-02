@@ -1,5 +1,4 @@
 /*Table: Scores
-
 +-------------+---------+
 | Column Name | Type    |
 +-------------+---------+
@@ -9,8 +8,6 @@
 id is the primary key (column with unique values) for this table.
 Each row of this table contains the score of a game. Score is a floating point value with two decimal places.
 
- 
-
 Write a solution to find the rank of the scores. The ranking should be calculated according to the following rules:
 
     The scores should be ranked from the highest to the lowest.
@@ -18,13 +15,9 @@ Write a solution to find the rank of the scores. The ranking should be calculate
     After a tie, the next ranking number should be the next consecutive integer value. In other words, there should be no holes between ranks.
 
 Return the result table ordered by score in descending order.
-
 The result format is in the following example.
 
- 
-
 Example 1:
-
 Input: 
 Scores table:
 +----+-------+
